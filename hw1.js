@@ -6,4 +6,4 @@ let slider = document-getElementById("range")
     let output = document-getElementById("range-slider")
     output.innerTML = slider.value;
 
-    slider. oninput = function () foutput. innerTML = this. value;};
+    slider. oninput = function () {foutput. innerTML = this. value;};

@@ -448,6 +448,7 @@
 							type="text"
 							name="uname"
 							id="uname"
+							pattern="[A-Za-z]+[A-Za-z0-9-_]{8,}"
 							maxlength="15"
 							required
 							title="Enter a username"
@@ -465,6 +466,7 @@
 							type="password"
 							name="pword"
 							id="pword"
+							pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 							minlength="10"
 							maxlength="30"
 							required
@@ -483,6 +485,7 @@
 							type="password"
 							name="con_pword"
 							id="con_pword"
+							pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 							minlength="10"
 							maxlength="30"
 							required
